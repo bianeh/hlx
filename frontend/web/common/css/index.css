@@ -1,0 +1,164 @@
+/* 分类 */
+.classifyList{
+    width: 100%;
+    height: 1.84rem;
+    padding: 0.59rem 0.4rem 0;
+}
+.classify{
+    width: 7.02rem;
+    height: 1.84rem;
+    display: flex;
+    justify-content: space-around;
+}
+.classify li{
+    width:1.2rem;
+    height: 1.4rem;
+   position: relative;
+}
+.classify li img{
+    width: 0.66rem;
+    height: 0.66rem;
+    position: absolute;
+    top:0;right:0;left:0;
+    margin:auto;
+}
+.classify a{
+    display:block;
+    width:1.2rem;
+    height: 1.4rem;
+    color: #000000;
+}
+.classify a:hover{
+    color: #ea4a4a;
+}
+.classify li span{
+    line-height: 0.26rem;
+    font-size: 0.26rem;
+    position: absolute;
+    top:0.84rem;right:0;left:0;
+    text-align: center;
+    margin:auto;
+}
+/*公告*/
+.noticeList{
+    width: 100%;
+    height:1.35rem;
+    float: left;
+    padding: 0.5rem 0.38rem 0;
+}
+.noticeList a{
+    display: block;
+}
+.announce {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.announce li {
+    float: left;
+}
+.announce .anLeft {
+    width: 0.81rem;
+    height: 0.81rem;
+}
+.announce .anLeft img {
+    width: 100%;
+    height: 100%;
+}
+.announce .anRight {
+    width: 80%;
+    margin-left: 0.39rem;
+    float: left;
+    height:0.81rem;
+    line-height: 20px;
+    font-size: 0.22rem;
+}
+.announce .anRight .style{
+    width: 0.41rem;
+    height: 100%;
+    float: left;
+    margin-right: 0.21rem;
+}
+.announce .anRight .style .span{
+    width: 100%;
+    height:0.35rem;
+    border-radius: 0.15rem;
+    background: #ea4a4a;
+    line-height: 0.35rem;
+    margin-bottom: 0.11rem;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+}
+.announce .anRight  .styles{
+    width: 4.7rem;
+    height: 0.81rem;
+    float: left;
+}
+.announce .anRight  .styles .anRightP {
+    width: 4.7rem;
+    line-height: 0.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.26rem;
+    color: #333;
+    float: left;
+    margin: 0;
+    padding-bottom: 0.1rem;
+    position: relative;
+}
+/* 图片展示*/
+.display{
+    width: 100%;
+    height: 2.08rem;
+    float: left;
+    padding: 0.48rem 0.2rem 0;
+}
+.display .pics{
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+    border-radius: 0.6rem;
+}
+/*列表*/
+.list{
+    width: 100%;
+    height: auto;
+    margin-top: 0.2rem;
+    padding: 0.49rem 0.1rem;
+    float: left;
+}
+.list li{
+    width: 3.3rem;
+    height: 5.5rem;
+    float: left;
+    margin: 0  0.17rem 0.5rem;
+    border-radius: 0.4rem 0.4rem 0 0;
+}
+.list li a {
+    display: block;
+    width: 3.3rem;
+    height: 5.5rem;
+}
+.list li img{
+    width: 100%;
+    border-radius: 0.4rem 0.4rem 0 0;
+    float: left;
+}
+.list li .intro{
+    width: 100%;
+   font-size: 0.28rem;
+    line-height: 0.28rem;
+    float: left;
+    overflow: hidden;
+    margin-top: 0.28rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list li strong{
+    color: #000;
+}
+.list li .price span{
+  float: right;
+}

@@ -1,0 +1,450 @@
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    /*position: relative;*/
+}
+header{
+    width: 100%;
+    height: 0.88rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    z-index: 500;
+}
+header .header-main {
+    width: 7.02rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+header .header-main .head{
+    width: 1.8rem;
+    position: absolute;
+    line-height: 0.7rem;
+    top:0.1rem;left:0;right:0;
+    margin:auto;
+    text-align: center;
+
+}
+.header-main .iconfont{
+    width: 0.7rem;
+    height: 0.7rem;
+    font-size: 0.45rem;
+    text-align: center;
+    line-height: 0.7rem;
+    margin: 0.1rem 0;
+    border-radius:50%;
+}
+.header-main .iconfont img{
+    width: 0.6rem;
+    height: 0.6rem;
+    margin-top: 0.1rem;
+}
+.header-main .service{
+    width: 0.45rem;
+    height: 0.45rem;
+    margin: 0.15rem -4.5rem 0.15rem 0;
+}
+.header-main .service img{
+    width: 0.45rem;
+    height: 0.45rem;
+}
+.header-main .iconfont.active{
+    background: #fff;
+    color: #000;
+}
+.detail{
+   width: 100%;
+    height: auto;
+    padding:0.4rem  0.24rem;
+    float: left;
+    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.detail .names{
+    width: 100%;
+    height:0.9rem;
+}
+.detail .name{
+    width: 70%;  height:0.9rem;
+   font-size: 0.3rem;
+    color: #333;
+  word-wrap: break-word;
+    letter-spacing: normal;
+    float: left;
+}
+.detail .shares{
+    width: 1rem;
+    float: right;
+    height: 0.9rem;
+}
+.detail .shares img{
+    width: 0.48rem;
+    height: 0.48rem;
+    float: left;
+    margin-left: 0.31rem;
+}
+.detail .shares span{
+    font-size: 0.24rem;
+    float: left;
+    margin-left: 0.31rem;
+}
+.detail .intro{
+   width: 100%;
+    height: 1.3rem;
+    margin-top: 0.28rem;
+    border-bottom: 0.01rem solid #ccc;
+}
+.detail .intro .sale{
+    line-height: 0.53rem;
+    font-size: 0.28rem;
+    color: #888;
+    margin-bottom: 0;
+}
+.detail .intro .countdown{
+    float: left;
+}
+.detail .intro .sale .giftP{
+    margin-left: 0.35rem;
+    background: #f7ae3c;
+    border-radius: 20px;
+    padding: 0.05rem 0.3rem;
+    color:#fff;
+}
+.detail .state{
+    width: 100%;
+    height: auto;
+    padding: 0.32rem 0 0;
+    font-size: 0.26rem;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+}
+.detail .state .iconfont{
+    color: #ff9914;
+    font-size: 0.34rem;
+    margin-top: 0.04rem;
+}
+.detail .state span{
+    float: left;
+
+}
+.interval{
+    width: 100%;
+    height: 0.2rem;
+    background: #f4f4f4;
+    float: left;
+    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.roblist{
+    width: 100%;
+    height: auto;
+    padding: 0.4rem 0.24rem 0.27rem;
+    float: left;
+    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.roblist .buyingMes{
+    width: 100%;
+    height: 0.34rem;
+    float: left;
+}
+.roblist .buyingMes .num{
+    width:100%;
+    height: 0.3rem;
+    float: left;
+    display: flex;
+    line-height: 0.3rem;
+    justify-content: space-between;
+    margin-top: 0.1rem;
+    font-size: 0.18rem;
+}
+.roblist .buyingMes .num .done{
+    margin-left: -1.2rem;
+}
+.roblist .buyingMes .num .attention{
+    font-size: 0.34rem;
+    color: #000;
+}
+.roblist .cons{
+    width: 7.02rem;
+    max-height: 1.76rem;
+    float: left;
+    padding: 0.08rem 0.28rem;
+    margin-top: 0.42rem;
+    overflow: hidden;
+}
+.roblist .con{
+    width: 7.02rem;
+    height: 0.88rem;
+}
+.roblist .con .anLeft{
+    width: 0.72rem;
+    height: 0.72rem;
+    float: left;
+}
+.roblist .con .anLeft img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.roblist .con .anRight{
+    width:4.92rem;
+    margin-left: 0.4rem;
+    float: left;
+    height: 0.28rem;
+    margin-top: 0.24rem;
+    padding: 0 0.2rem;
+    border-left: 0.02rem solid #333333;
+}
+.roblist .con .anRight .rcon{
+    height:0.26rem ;
+    width: 100%;
+    line-height: 0.27rem;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    font-size: 0.27rem;
+    color: #333;
+    float: left;
+}
+.roblist .con .anRight .rcon span{
+    color: #c444ff;
+}
+.like{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 0.2rem 0.24rem 0.4rem;
+     box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.like .tab{
+    width: 7.02rem;
+    margin: 0 auto;
+    height: 1.02rem;
+    font-size: 0.3rem;
+    color: #888;
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.02rem;
+}
+.like .tab li.active{
+    color: #b71627;
+}
+.like .pro{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding:0  0.24rem 0.3rem;
+    margin-top: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.like .pro .content{
+    width: 100%;
+    height: 7.28rem;
+    position: relative;
+}
+.like .pro .content .description{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.like .pro .content .particulars{
+    width: 100%;
+}
+.like .pro .content .params{
+   width: 100%;
+    padding: 0 0.28rem;
+
+}
+.like .pro .content .params .par{
+    width: 100%;
+    height: 0.3rem;
+    margin-bottom: 0.57rem;
+}
+.like .pro .content .params .par div:nth-child(1){
+    width:1.2rem;
+    float: left;
+    margin-right: 0.83rem;
+    overflow: hidden;
+    text-overflow: inherit;
+    white-space:pre-wrap;
+    color: #777;
+    display: inline-block;
+    font-size: 0.28rem;
+    line-height: 0.3rem;
+}
+.like .pro .content .params .par div:nth-child(2){
+    width: 65%;
+    color: #333;
+    white-space: pre-wrap;
+    font-size: 0.30rem;
+    line-height: 0.45rem;
+    float: left;
+}
+.like .pro .content .assesment p{
+    padding:0 0.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.like .pro .content .assesment p span:nth-child(2){
+    color: #f7ae3c;
+}
+.like .pro .content .assesment .eve li{
+    width: 100%;
+    height: 4.97rem;
+    float: left;
+    background: #fff;
+    padding:0.3rem  0.24rem 0.5rem;
+}
+.like .pro .content .assesment .eve li a{
+    display: block;
+    height: 4.97rem;
+}
+.like .pro .content .assesment .eve li .one{
+    width: 100%;
+    height: 0.8rem;
+    display:flex;
+    justify-content: space-between;
+}
+.like .pro .content .assesment .eve li .one img{
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+}
+.like .pro .content .assesment .eve li .one  .name{
+   height: 100%;
+}
+.like .pro .content .assesment .eve li .one  .name p{
+    margin-top: 0;
+}
+.like .pro .content .assesment .eve li .one  .name p:first-child{
+    color: #333;
+    font-size: 0.3rem;
+}
+.like .pro .content .assesment .eve li .one  .name p:last-child{
+    color: #b0b0b0;
+    font-size: 0.2rem;
+}
+.like .pro .content .assesment .eve li .one  .ping{
+    width: 1.8rem;
+    height: 100%;
+    padding: 0.25rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.like .pro .content .assesment .eve li .one  .ping img{
+    width: 0.26rem;
+    height: 0.26rem;
+}
+.like .pro .content .assesment .eve li .two{
+    width: 100%;
+    height: 0.5rem;
+    padding-left:1.04rem;
+}
+.like .pro .content .assesment .eve li .two p{
+    width: 96%;
+    overflow: hidden;
+    padding: 0;
+    display: inherit;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.like .pro .content .assesment .eve li .three{
+    width: 100%;
+    height: 1.8rem;
+    padding-left:1.04rem;
+}
+.like .pro .content .assesment .eve li .three img{
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-right: 0.1rem;
+    float: left;
+}
+.like .pro .content .assesment .eve li .four{
+    width: 100%;
+    height:0.47rem;
+    padding-top: 0.27rem;
+    padding-left: 1.04rem;
+
+}
+.like .pro .content .assesment .eve li .four p{
+    color: #b0b0b0;
+    font-size: 0.2rem;
+    padding: 0;
+}
+
+.like .pro .img{
+    height: 3.3rem;
+    width: 100%;
+    float: left;
+}
+.like .pro .img img{
+    width: 100%;
+    height: 3.3rem;
+    margin: 0 auto;
+}
+.like .pro p{
+    width: 100%;
+    line-height: 0.27rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    font-size: 0.27rem;
+    color: #333;
+    margin-top: 0.22rem;
+}
+.like .pro .content .description{
+    display: none;
+}
+.like .pro .content .description.active{
+    display: block;
+}
+.like .pro li .nums{
+    width:100%;
+    height: 0.3rem;
+    float: left;
+    display: flex;
+    line-height: 0.3rem;
+    justify-content: space-between;
+    margin-top: 0.1rem;
+    font-size: 0.18rem;
+    color: #666;
+}
+.likes{
+    padding-left: 0;
+    padding-right: 0;
+}
+.tabs{
+  margin-left:0.24rem;
+}
+.likes .pro li{
+    width: 100%;
+  /*  height: 6.86rem;*/
+}
+.likes .pro li img{
+    width:100%;
+    margin: 0;
+	padding: 0;
+	border: 0;  
+	display:inherit;  
+}
+
+

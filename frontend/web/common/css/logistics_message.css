@@ -1,0 +1,115 @@
+.postpone-group{
+	margin-bottom: 10px;
+}
+.postpone-group .address-box{
+	padding-left:44px;
+}
+.postpone-group .postpone-icon{
+	position: absolute;
+	top:50%;
+	margin-top:-12px;
+	left:15px;
+	width:24px;
+	height:24px;
+	background: url(../images/log_iocn_logistics.png) center no-repeat;	
+	background-size: 24px;
+}
+
+.postpone-group .text{
+	color: #6B78A2;
+}
+
+.postpone-group .time{
+	color:#999999;
+	font-size: .2rem;
+}
+
+/*********************/
+.hint-group{
+	height: 2.3rem;
+	background: #fff;
+	line-height: 60px;
+	margin-bottom: 0.2rem;
+	padding: 0.43rem 0.98rem 0.37rem;
+}
+
+.hint-group .left{
+	width: 1.59rem;
+	height: 1.48rem;
+	float: left;
+}
+.hint-group .left img{
+	width: 1.59rem;
+	height: 1.48rem;
+}
+.hint-group .right{
+	float: right;
+}
+.hint-group .right p{
+	width: 100%;
+	line-height: 0.3rem;
+	font-size: 0.3rem;
+}
+.hint-group .right p:nth-child(1){
+	color: #000;
+}
+.postpone-group{
+	margin-bottom: 0;
+}
+
+.postpone-group .title{
+	font-size: .3rem;
+	font-weight: 500;
+	line-height: .4rem;
+	color:#666666;
+}
+
+.postpone-group .text{
+	font-size: .24rem;
+	color:#777777;
+	margin: 0;
+}
+
+.message-box.on-load .title{
+	color:#f7ae3c;
+	font-weight: 600;
+}
+.message-box.on-load span{
+	color:#f7ae3c;
+}
+.postpone-group .order-table-view-cell .message-box.on-load .order-icon{
+	background:#f7ae3c;
+}
+
+.postpone-group .order-table-view-cell{
+	padding:20px;
+	position: relative;
+}
+.postpone-group .order-table-view-cell .message-box{
+	padding-left:72px;
+	padding-bottom: 30px;
+	position: relative;
+}
+.postpone-group .order-table-view-cell .message-box .order-icon{
+	position: absolute;
+	width:10px;
+	height: 10px;
+	top:0px;
+	left:15%;
+	background: #888;
+	border-radius: 100%;
+}
+
+.postpone-group .mui-table-view:before ,.postpone-group .mui-table-view:after{
+	background-color:#FFFFFF;
+}
+
+.postpone-group .order-table-view-cell .message-box:after{
+	position: absolute;
+	content: "";
+	width:1px;
+	top:10px;
+	left:54px;
+	bottom: -50px;
+	background:#888;
+}

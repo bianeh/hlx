@@ -1,0 +1,111 @@
+footer {
+    width: 100%;
+    height: 0.98rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    marign: auto;
+    padding: 0.06rem 0;
+    border-top:0.01rem solid #dbd7df;
+    z-index: 99;
+}
+
+.footer-main {
+    width: 6.38rem;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-main .setting {
+    width: 0.7rem;
+    height: 100%;
+}
+
+.footer-main .setting .pics {
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.62rem;
+    float: left;
+    margin-left: 0.1rem;
+    margin-bottom: 0.08rem;
+    font-size: 0.45rem;
+    color: #090723;
+    font-weight: 700;
+
+}
+.footer-main .setting .intros.active{
+    color:#ea4a4a;
+}
+.footer-main .setting .a{
+    font-size: 0;
+    background: url('../img/tab_button_home@2x.png')center center no-repeat;
+    background-size: 85%;
+}
+.footer-main .setting .a.active{
+	font-size: 0;
+    background: url('../img/tab_button_home_default@2x.png')center center no-repeat;
+    background-size: 85%;
+
+}
+.footer-main .setting .b{
+    font-size: 0;
+    background: url('../img/tab_button_teaplantation2@2x.png')center center no-repeat;
+    background-size: 85%;
+
+}
+.footer-main .setting .b.active{
+		font-size: 0;
+    background: url('../img/tab_button_teaplantation1@2x.png')center center no-repeat;
+    background-size:85%;
+
+}
+.footer-main .setting .c{
+    font-size: 0;
+    background: url('../img/tab_button_shop2@2x.png')center center no-repeat;
+    background-size: 85%;
+
+}
+.footer-main .setting .c.active{
+		font-size: 0;
+    background: url('../img/tab_button_shop1@2x.png')center center no-repeat;
+    background-size: 85%;
+
+}
+.footer-main .setting .d{
+    font-size: 0;
+    background: url('../img/tab_button_shopping2@2x.png')center center no-repeat;
+    background-size: 85%;
+
+}
+.footer-main .setting .d.active{
+		font-size: 0;
+    background: url('../img/tab_button_shopping1@2x.png')center center no-repeat;
+    background-size: 85%;
+
+}
+.footer-main .setting .e{
+    font-size: 0;
+    background: url('../img/tab_button_me2@2x.png')center center no-repeat;
+    background-size: 85%;
+
+}
+.footer-main .setting .e.active{
+    font-size: 0;
+    background: url('../img/tab_button_me1@2x.png')center center no-repeat;
+    background-size:85%;
+
+}
+.footer-main .setting .intros {
+    width: 0.75rem;
+    float: left;
+    margin-top: 0.04rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.18rem;
+    color: #333333;
+}

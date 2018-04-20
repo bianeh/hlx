@@ -1,0 +1,56 @@
+/*头部*/
+header{
+    width: 100%;
+    height: 0.9rem;
+    position: fixed;
+    top:0;left:0;right:0;
+    margin:auto;
+    z-index: 999;
+    background: #fff;
+}
+header .header-main{
+    width: 7.02rem;
+    height: 100%;
+    padding: 0.2rem 0 0.22rem 0;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header-main .news{
+    width: 0.52rem;
+    height: 0.53rem;
+}
+.header-main .scanCode {
+    width: 0.54rem;
+    height: 0.54rem;
+}
+.header-main .img img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.header-main .research{
+    width: 5.12rem;
+    height: 0.55rem;
+    position: relative;
+}
+.header-main .research input{
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: #f7f7f8;
+    border-radius: 0.2rem;
+    font-size: 0.24rem;
+}
+.header-main .research img{
+    width: 0.34rem;
+    height: 0.34rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right: 0.2rem;
+    margin: auto;
+}
